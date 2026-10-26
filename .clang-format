@@ -1,0 +1,35 @@
+BasedOnStyle: GNU
+IndentWidth: 4
+TabWidth: 4
+UseTab: Always
+ColumnLimit: 75
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: true
+NamespaceIndentation: All
+PointerAlignment: Left
+SpaceAfterCStyleCast: true
+SortIncludes: true
+IncludeBlocks: Regroup
+SpacesBeforeTrailingComments: 1
+SpaceAfterTemplateKeyword: true
+AlwaysBreakTemplateDeclarations: MultiLine
+ReflowComments: true
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignTrailingComments: true
+Cpp11BracedListStyle: true
+AccessModifierOffset: -4
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+AllowAllParametersOfDeclarationOnNextLine: false
+AllowShortEnumsOnASingleLine: true
+AllowShortCaseLabelsOnASingleLine: true
+AlignAfterOpenBracket: AlwaysBreak
+AlignEscapedNewlines: Right
+AlwaysBreakAfterReturnType: All
+SpaceBeforeParens: Always
+BinPackParameters: false
+BinPackArguments: false
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: true
